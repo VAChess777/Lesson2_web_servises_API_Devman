@@ -51,7 +51,7 @@ def main():
     token = os.environ['BITLY_TOKEN']
     parser = argparse.ArgumentParser(
         description=
-        "shortening URL in bitlink and displaying the number of clicks on the shortened link"
+        "Shortening URL in bitlink and displaying the number of clicks on the shortened link"
     )
     parser.add_argument(
         "url",
